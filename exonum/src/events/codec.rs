@@ -21,7 +21,7 @@ use std::io;
 use messages::{HEADER_LENGTH, MessageBuffer, RawMessage};
 use super::error::other_error;
 
-pub const MAX_MESSAGE_LEN: usize = 10 * 1024 * 1024; // 10 MB
+pub const MAX_MESSAGE_LEN: usize = 30 * 1024 * 1024; // 30 MB
 
 #[derive(Debug)]
 pub struct MessagesCodec;
