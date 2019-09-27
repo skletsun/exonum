@@ -58,6 +58,11 @@ The project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 - `ProofListIndex::extend()` method has been refactored, leading to up to 10x
   performance improvements for large lists. (#1455)
+### New features
+
+#### exonum
+
+- `ProtobufConvert` is now implemented for `exonum_merkledb::ListProof`. (#1479)
 
 ## 0.12.1 - 2019-09-19
 
